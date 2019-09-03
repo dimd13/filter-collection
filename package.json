@@ -1,0 +1,33 @@
+{
+  "name": "filter-collection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npm run test && npm run lint",
+    "test": "ava",
+    "lint": "eslint . --color"
+  },
+  "author": {
+    "email": "dimd.wolf13@gmail.com",
+    "name": "Igor Trenikhin"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.18.2"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2
+  }
+}
