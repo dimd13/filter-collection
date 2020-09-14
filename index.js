@@ -1,5 +1,3 @@
-/* eslint no-param-reassign: ["error", { "props": false }] */
-
 const inArray = (haystack, needle) => {
   return haystack.indexOf(needle) !== -1;
 };
